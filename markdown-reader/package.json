@@ -1,0 +1,29 @@
+{
+    "name": "markdown-reader",
+    "version": "1.0.0",
+    "description": "一个支持划线交互的Markdown 博客前端应用,为Refanstic进行模块功能探索",
+    "main": "src/index.js",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-markdown": "^9.0.1",
+      "remark-gfm": "^4.0.0",
+      "rehype-highlight": "^7.0.0",
+      "axios": "^1.6.2",
+      "react-router-dom": "^6.20.1"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.45",
+      "@types/react-dom": "^18.2.18",
+      "@vitejs/plugin-react": "^4.2.1",
+      "autoprefixer": "^10.4.16",
+      "postcss": "^8.4.32",
+      "tailwindcss": "^3.4.0",
+      "vite": "^5.0.10"
+    }
+  }
